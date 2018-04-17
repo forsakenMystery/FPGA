@@ -1,0 +1,2 @@
+vhdl work "shift.vhd"
+vhdl work "shift_test.vhd"

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "E:/Code/FPGA/shift/shift_test_isim_beh.exe" -prj "E:/Code/FPGA/shift/shift_test_beh.prj" "work.shift_test" 

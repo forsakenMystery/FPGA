@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "E:/Code/FPGA/IC74148/IC74148_isim_beh.exe" -prj "E:/Code/FPGA/IC74148/IC74148_beh.prj" "work.IC74148" 

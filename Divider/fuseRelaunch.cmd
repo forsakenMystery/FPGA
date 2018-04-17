@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "E:/Code/FPGA/Divider/divider_test_isim_beh.exe" -prj "E:/Code/FPGA/Divider/divider_test_beh.prj" "work.divider_test" 

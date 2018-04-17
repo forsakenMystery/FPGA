@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "E:/Code/FPGA/Divider/Divider.xst" -ofn "E:/Code/FPGA/Divider/Divider.syr" 
+xst -intstyle ise -ifn "E:/Code/FPGA/Divider/Divider.xst" -ofn "E:/Code/FPGA/Divider/Divider.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45t-fgg484-4 Divider.ngc Divider.ngd  
+map -intstyle ise -p xc6slx45t-fgg484-4 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Divider_map.ncd Divider.ngd Divider.pcf 
+par -w -intstyle ise -ol high -mt off Divider_map.ncd Divider.ncd Divider.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Divider.twx Divider.ncd -o Divider.twr Divider.pcf 
+xst -intstyle ise -ifn "E:/Code/FPGA/Divider/Divider.xst" -ofn "E:/Code/FPGA/Divider/Divider.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45t-fgg484-4 Divider.ngc Divider.ngd  
+map -intstyle ise -p xc6slx45t-fgg484-4 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Divider_map.ncd Divider.ngd Divider.pcf 
+par -w -intstyle ise -ol high -mt off Divider_map.ncd Divider.ncd Divider.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Divider.twx Divider.ncd -o Divider.twr Divider.pcf 

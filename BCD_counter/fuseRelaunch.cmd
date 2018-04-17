@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "E:/Code/FPGA/BCD_counter/BCD_counter_test_isim_beh.exe" -prj "E:/Code/FPGA/BCD_counter/BCD_counter_test_beh.prj" "work.BCD_counter_test" 

@@ -1,0 +1,2 @@
+vhdl work "BCD_counter.vhd"
+vhdl work "BCD_counter_test.vhd"
